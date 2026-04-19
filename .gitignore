@@ -1,0 +1,19 @@
+# --- تجاهل ملفات الويب (التقيلة جداً) ---
+**/node_modules/
+**/web-app/.next/
+**/web-app/out/
+
+# --- تجاهل ملفات الـ AI والموديلات ---
+**/ai-engine/__pycache__/
+**/datasets/
+**/runs/
+*.pt
+*.onnx
+
+# --- ملفات النظام والبيئة ---
+.env
+.env.local
+.DS_Store
+Thumbs.db
+*.zip
+*.rar
